@@ -10,21 +10,24 @@ h1, h2, h3, p, a, li {
 }
 
 .card {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 13px;
     width: 320px;
+    box-shadow: 0px 0px 5px 5px rgba(102, 101, 101, 0.116);
+    cursor: pointer;
 }
 
 .text-container {
     position: absolute;
     top: 20px;
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     color: white;
     background-color: orange;
     text-align: center;
     width: 120px;
+    height: 20px;
     border-radius: 0px 0px 10px 0px;
 }
 
